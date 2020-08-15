@@ -15,11 +15,11 @@ notebook = "^6.1.3"
 aiohttp = "^3.6.2"
 databases = {extras = ["postgresql", "sqlite"], version = "^0.3.2"}
 psycopg2 = "^2.8.5"
+layered-yaml-attrdict-config = "^18.12.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.0.1"
 pytest-cov = "^2.10.1"
-pytest-randomly = "^3.4.1"
 pytest-testmon = "^1.0.3"
 pytest-timeout = "^1.4.2"
 pytest-mock-server = "^0.2.0"

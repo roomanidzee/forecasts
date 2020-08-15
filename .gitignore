@@ -60,6 +60,8 @@ coverage.xml
 *.cover
 .hypothesis/
 .pytest_cache/
+*.db
+*.yml
 
 # Translations
 *.mo
