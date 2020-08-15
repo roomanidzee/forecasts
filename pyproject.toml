@@ -16,6 +16,7 @@ aiohttp = "^3.6.2"
 databases = {extras = ["postgresql", "sqlite"], version = "^0.3.2"}
 psycopg2 = "^2.8.5"
 layered-yaml-attrdict-config = "^18.12.3"
+ipykernel = "^5.3.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.0.1"

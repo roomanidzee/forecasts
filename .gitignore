@@ -61,7 +61,8 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 *.db
-*.yml
+config.yml
+docker/postgres-data
 
 # Translations
 *.mo

@@ -29,6 +29,6 @@ async def test_weather_queries(test_database_url, test_json):
 
     assert len(results) == 40
 
-    assert weather_info[0].city_api_id == 524901
-    assert weather_info[0].dt == 1485799200
+    assert results[0].city_api_id == 524901
+    assert results[0].dt == 1485799200
 
