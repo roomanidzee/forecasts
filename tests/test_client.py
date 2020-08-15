@@ -26,3 +26,6 @@ async def test_client_weather_retrieve():
     response = await api_client.get_weather_info('1')
 
     assert isinstance(response, dict)
+
+    assert response['message'] == 0.0036
+    assert len(response['list']) == 40
